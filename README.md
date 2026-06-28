@@ -47,7 +47,7 @@ O sistema trabalha com entidades principais como:
 
 Clone o repositório:
 
-```bash
+bash
 git clone https://github.com/outter1/Hospital-Stock-Control.git
 E seja feliz!
 
@@ -91,7 +91,6 @@ Laravel's predictable structure and conventions make it ideal for AI coding agen
 composer require laravel/boost --dev
 
 php artisan boost:install
-```
 
 Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
 
