@@ -1,4 +1,54 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Hospital Stock Control
+
+Sistema web desenvolvido para auxiliar no controle de estoque hospitalar, permitindo o gerenciamento de produtos, entradas, saídas e alertas de estoque mínimo.
+
+## Sobre o Projeto
+
+O **Hospital Stock Control** foi criado para atender uma distribuidora regional de insumos e medicamentos hospitalares que enfrenta problemas com perda de produtos por vencimento, falta de EPIs em períodos de alta demanda e ausência de controle informatizado.
+
+O sistema permite que usuários do almoxarifado cadastrem produtos hospitalares, acompanhem a movimentação do estoque e visualizem alertas quando algum item estiver abaixo da quantidade mínima configurada.
+
+## Funcionalidades
+
+- Cadastro de produtos hospitalares
+- Controle de medicamentos, soros, luvas, agulhas e EPIs
+- Registro de lote, fabricante e data de validade
+- Controle de temperatura de armazenamento
+- Cadastro de entrada e saída de produtos
+- Controle de quantidade atual em estoque
+- Definição de estoque mínimo
+- Alertas para produtos abaixo do estoque mínimo
+- Painel administrativo para gerenciamento dos dados
+
+## Tecnologias Utilizadas
+
+- PHP
+- Laravel
+- Filament
+- MySQL
+- HTML
+- CSS
+- JavaScript
+
+## Objetivo
+
+O objetivo do sistema é melhorar o controle de estoque hospitalar, reduzir perdas financeiras causadas por vencimento de medicamentos e evitar a falta de materiais essenciais em momentos críticos.
+
+## Estrutura do Sistema
+
+O sistema trabalha com entidades principais como:
+
+- Usuários
+- Produtos
+- Estoques
+- Movimentações de entrada e saída
+
+## Como Executar o Projeto
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/outter1/Hospital-Stock-Control.git<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
